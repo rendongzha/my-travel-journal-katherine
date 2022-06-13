@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  background: #e5e5e5;
+}
+.app {
+  width: 550px;
+  margin: 0 auto;
+}
+/* nav */
+.navbar {
+  width: 100%;
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+}
+.nav--logo {
+  min-width: 0;
+  max-width: 24px;
+  height: auto;
+  flex-grow: 0;
+}
+.nav--text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+/* card */
+
+.card--list {
+  padding-top: 27px;
+  background-color: white;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+  padding: 18px 40px;
+  border-bottom: 1px solid #f5f5f5;
+  /* border:2px solid black; */
+  background: #ffffff;
+}
+
+.card--picture {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card--location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.location--mark {
+  width: 7px;
+  height: auto;
+}
+
+.location--text {
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.location--map {
+  text-decoration-line: underline;
+  color: #918e9b;
+  margin-left: 12px;
+}
+
+.card--destination {
+  font-weight: 700;
+  font-size: 23.5px;
+  line-height: 30px;
+  color: #2b283a;
+  margin: 7px 0;
+}
+
+.card--date {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #2b283a;
+  margin-bottom: 9px;
+}
+
+.card--description {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
